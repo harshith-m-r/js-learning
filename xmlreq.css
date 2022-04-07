@@ -1,7 +1,11 @@
 
+body{
+  background-color: azure;
+}
+
 .test{
     border: .5px solid ;
-    background: rgba(24, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.05);
     font-weight: bold;
     height: auto;
     width: auto;
