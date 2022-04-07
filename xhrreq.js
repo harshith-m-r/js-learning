@@ -13,7 +13,7 @@ function addItemsToDOM(categories) {
   categories.forEach((category) => {
         var elem = document.createElement('div');
         elem.setAttribute('class', 'test');
-        elem.textContent = category[arr[i]] +"\n"+ category[arr[i+1]] +"\n"+ category[arr[i+2]];
+        elem.textContent = category[arr[i]] + category[arr[i+1]] + category[arr[i+2]];
         container.appendChild(elem);
       });
     }
