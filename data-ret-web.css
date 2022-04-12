@@ -1,0 +1,55 @@
+
+body{
+    background-color: azure;
+  }
+  
+.test{
+    border: .5px solid ;
+    background: rgba(255, 255, 255, 0.05);
+    font-weight: bold;
+    height: auto;
+    width: auto;
+}       
+  
+#navlinks0, #navlinks1, #navlinks2, #navlinks3, #navlinks4{
+
+    background-color: #c9eff0; /* Green */
+    border: none;
+    color: rgb(181, 95, 95);
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;  
+    font-size: 15px;
+}
+
+  
+#submenu{
+  display: inline-flex;
+}
+  
+  .header {
+      margin: 0%;
+      height: 30px;
+      text-align: left;
+      background: rgba(105, 255, 255, 0.4);
+      color: rgb(20, 0, 0);
+      font-size: 15px;
+      font-family: Copperplate;
+    }
+  
+    .footer {
+      position: fixed;
+      left: 0;
+      height: 20px;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(105, 255, 255, 0.2);
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }
+
+
+.concepts{
+  display: inline-block;
+  ;
+}
